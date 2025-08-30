@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Modals */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+/* Chat */
+#chatIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chat {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1c;
+}
+.chat-header {
+  background: #007bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.chat-body {
+  padding: 20px;
+}
+.chat-body input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 8px;
+}
